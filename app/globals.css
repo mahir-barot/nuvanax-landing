@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* *=========== SaaS Agency Theme =========== */
+@layer base {
+  :root {
+    /* Light Mode */
+    --background: 220 33% 98%; /* Light blue-gray background */
+    --foreground: 220 25% 15%; /* Dark blue-gray text for contrast */
+
+    --card: 0 0% 100%; /* Pure white cards for clean look */
+    --card-foreground: 220 25% 15%; /* Same dark text */
+
+    --popover: 0 0% 100%; /* Pure white popovers */
+    --popover-foreground: 220 25% 15%; /* Consistent dark text */
+
+    --primary: 230 65% 45%; /* Strong blue for primary actions */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+
+    --secondary: 250 65% 60%; /* Purple-blue for secondary elements */
+    --secondary-foreground: 0 0% 100%; /* White text on secondary */
+
+    --muted: 220 20% 94%; /* Very light blue-gray for muted areas */
+    --muted-foreground: 220 10% 40%; /* Medium blue-gray for muted text */
+
+    --accent: 190 80% 50%; /* Teal accent for highlights */
+    --accent-foreground: 0 0% 100%; /* White text on accent */
+
+    --destructive: 0 84% 60%; /* Red for destructive actions */
+    --destructive-foreground: 0 0% 98%; /* White text on destructive */
+
+    --border: 220 20% 90%; /* Light border color */
+    --input: 220 20% 90%; /* Consistent with border */
+    --ring: 230 65% 45%; /* Match primary for focus rings */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Dark Mode */
+    --background: 224 30% 10%; /* Deep blue-gray background */
+    --foreground: 220 20% 98%; /* Off-white text for readability */
+
+    --card: 224 32% 15%; /* Slightly lighter cards */
+    --card-foreground: 220 20% 98%; /* Consistent light text */
+
+    --popover: 224 32% 15%; /* Match card */
+    --popover-foreground: 220 20% 98%; /* Match card foreground */
+
+    --primary: 230 65% 60%; /* Brighter blue for primary in dark mode */
+    --primary-foreground: 0 0% 100%; /* White on primary */
+
+    --secondary: 250 65% 70%; /* Brighter purple-blue for secondary */
+    --secondary-foreground: 224 30% 10%; /* Dark text for contrast */
+
+    --muted: 224 25% 20%; /* Dark blue-gray for muted areas */
+    --muted-foreground: 220 20% 80%; /* Light gray-blue for muted text */
+
+    --accent: 190 80% 60%; /* Brighter teal accent */
+    --accent-foreground: 224 30% 10%; /* Dark background color as text */
+
+    --destructive: 0 72% 50%; /* Darker red for destructive */
+    --destructive-foreground: 0 0% 98%; /* Light text on destructive */
+
+    --border: 224 25% 25%; /* Darker subtle border */
+    --input: 224 25% 25%; /* Match border */
+    --ring: 230 65% 60%; /* Match primary */
+  }
+}
+
+.shadow-light {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.075);
+}
+
+.shadow-dark {
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.12);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.br-black{
+  border: 2px solid hsl(230 65% 45%);
+  background-color: white;
+  color: black;
+}
