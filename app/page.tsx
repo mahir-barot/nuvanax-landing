@@ -21,7 +21,7 @@ export const metadata = {
     type: "website",
     url: "https://github.com/nobruf/shadcn-landing-page.git",
     title: "Nuvanax - Software Development Agency | Reactjs | NextJS",
-    description: "Free Shadcn landing page for developers",
+    description: "Software development agency to help your business grow and streamline operations.",
     images: [
       {
         url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
