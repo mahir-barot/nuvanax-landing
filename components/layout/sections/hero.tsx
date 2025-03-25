@@ -65,7 +65,7 @@ export const HeroSection = () => {
             src={
               theme === "light"
                 ? "/image.png"
-                : "/hero-image-dark.jpeg"
+                : "/image.png"
             }
             alt="dashboard"
           />
