@@ -36,6 +36,10 @@ export const HeroSection = () => {
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
+              <Link
+                href="https://cal.com/nuvanax-intro/15min"
+                target="_blank"
+              >
               Get Started
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
@@ -46,7 +50,7 @@ export const HeroSection = () => {
               className="w-5/6 md:w-1/4 font-bold"
             >
               <Link
-                href="https://nuvanax.com/"
+                href="https://cal.com/nuvanax-intro/15min"
                 target="_blank"
               >
                 Jump on a call
