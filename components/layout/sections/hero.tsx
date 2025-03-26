@@ -49,10 +49,7 @@ export const HeroSection = () => {
               variant="secondary"
               className="w-5/6 md:w-1/4 font-bold"
             >
-              <Link
-                href="https://cal.com/nuvanax-intro/15min"
-                target="_blank"
-              >
+              
                 Jump on a call
                 <Phone className="size-4 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
               </Link>
